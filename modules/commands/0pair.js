@@ -44,7 +44,13 @@ module.exports.run = async function({ api, event, args, Users, Threads, Currenci
               imglove.push(fs.createReadStream(__dirname + "/cache/avt.png"));
               imglove.push(fs.createReadStream(__dirname + "/cache/giflove.png"));
               imglove.push(fs.createReadStream(__dirname + "/cache/avt2.png"));
-        var msg = {body:`pagla\nलो मिल गया आपका जीवन साथी🤭🫶\nअब बार-बार मत बोलना सेटिंग👩‍❤️‍💋‍👨👫\n करवाने को 😕🥲\nआप दोनो का प्यार👉${tle} है। 😮😐\n`+namee+" "+"💖"+" "+name, mentions: arraytag, attachment: imglove}
+        var msg = {body:`pagla\n `🌸===『*★𝗖𝗿𝗲𝗱𝗶𝘁'𝘀 𒁍✬✿╔╬⓼★⓼╃───────➣™
+🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 🄰🅁🅈🄰🄽𝄠━─━Ⓔ⧐
+╰✾✾®️╀✿✿╀─━ↈⓇ⧐____________________________________________________________________‎‎[•||•●•||•┼┼──🌸𝐓ʋ𝗺𝘀𝗮 𝐊❍ıı 𝐏ɣ𝗮𝗮ɽ𝗮 𝐊❍ıı  𝐌𝗮𝘀❍𝗺 𝐍𝗮Ħıı 𝐇𝐚ıı•||•🐬•||•]]
+🌹✦━━━━━🌹━━🌹━━━━━✦🌹
+\n[•||•●•||•┼┼──🌸🌿𝐓ʋ𝗺 𝐉𝗮𝗮η  𝐇❍ 𝐌ƏɽƏ 𝐓ʋ𝗺ĦƏ 𝐌𝗮ɭʋ𝗺 𝐍𝗮Ħıı 𝐇𝐚ıı•||•🌸•||• ]]
+🌹✦━━━━━🌹━━🌹━━━━━✦🌹
+\n 💐𝐀𝐀𝐏 𝐃𝐎𝐍𝐎 𝐊𝐀 𝐏𝐘𝐀𝐑 𝐈𝐓𝐍𝐀 𝐇𝐀𝐈💐👉 👉${tle} है। 😮😐\n`+namee+" "+"💖"+" "+name, mentions: arraytag, attachment: imglove}
         // var msg = {body: `🥰Successful pairing!\n💌Wish you two hundred years of happiness\n💕Double ratio: ${tle}%\n`+namee+" "+"💓"+" "+name, mentions: arraytag, attachment: imglove}  
          return api.sendMessage(msg, event.threadID, event.messageID)
       }
