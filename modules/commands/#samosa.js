@@ -19,7 +19,7 @@ react.includes("nasta") ||
 react.includes("Nasat") ||     
 react.includes("breakfast")) {
     var msg = {
-        body: `${name} 𝐋𝐎 𝐉𝐀𝐀𝐍 𝐒𝐀𝐌𝐎𝐒𝐀 𝐊𝐇𝐀𝐀𝐎💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/samosa.jpg`)
+        body: `${name} 𝐋𝐎 𝐉𝐀𝐀𝐍 𝐒𝐀𝐌𝐎𝐒𝐀 𝐊𝐇𝐀𝐀𝐎💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Samosa.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)
