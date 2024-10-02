@@ -670,11 +670,12 @@ if ((event.body.toLowerCase() == "😀") || (event.body.toLowerCase() == "😀�
 
   if (event.body.indexOf("Bot") >= 0 || (event.body.indexOf("bot") >= 0)) {
     var msg = {
-      body: `❤️🌿🍒${name}🌿🥀💙, \n\n
+      body: `⫷╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍⫸
+      ❤️🌿🍒${name}🌿🥀💙, \n\n
           ${rand} 🤣🍁❤
 
 
-           *★᭄𝗢𝘄𝗻𝗲𝗿 ཫ༄𒁍≛⃝SILENT PRINCE🍀🍒`
+           *★᭄𝗢𝘄𝗻𝗲𝗿 ཫ༄𒁍≛⃝⫷┄┄┄┄┄┄┄ 】𝐀𝐑𝐘𝐀𝐍【┄┄┄┄┄┄┄┄┄⫸🍀🍒`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
