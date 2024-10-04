@@ -19,8 +19,8 @@ react.includes("Isha") ||
 react.includes("ISHA") ||     
 react.includes("isha")) {
     var msg = {
-        body: `${name}💐𝐀𝐋𝐄 𝐌𝐎𝐑𝐈 𝐌𝐀𝐈𝐘𝐀😱𝐘𝐄𝐇 𝐈𝐒𝐇𝐀 𝐇𝐀𝐈🤧 𝐌 𝐓𝐎 𝐃𝐀𝐑 𝐆𝐘𝐀🥶
-        𝐘𝐀𝐊𝐄𝐄𝐍 𝐍À 𝐇𝐎 𝐓𝐎 😛𝐃𝐄𝐊𝐇 𝐋𝐎 😹💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Isha.jpg`)
+        body: `${name}💐𝙰𝙻𝙴 𝙼𝙾𝚁𝙸 𝙼𝙰𝙸𝚈𝙰 𝚈𝙴 𝙺𝚈𝙰 𝙳𝙴𝙺𝙷 𝚁𝙷𝙰🤧 𝙷𝚄𝙽 𝙼𝙰𝙸 𝙰𝙱 𝙼𝙴𝚁𝙸🥴 𝙼𝙰𝙻𝙺𝙸𝙽 𝙺𝙰 𝙺𝚈𝙰 𝙷𝙾𝙶𝙰
+        𝙶𝚁𝙿 𝚆𝙰𝙻𝙾 𝙸𝚂𝙽𝙴 𝙼𝙴𝚁𝙴 𝙼𝙰𝙻𝙸𝙺 𝙿𝙴 𝙺𝙰𝙻𝙰 𝙹𝙰𝙳𝚄 𝙺𝙸𝚈𝙰 𝙷𝙰𝙸😹💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Isha.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🙈", event.messageID, (err) => {}, true)
