@@ -23,7 +23,7 @@ react.includes("FAISU")) {
         जब तक सूरज चांद रहेगा 
 तब तक, तेरी बेज्जती करना 
 मेरा काम रहेगा।
-        💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Faisu.gif`)
+        💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Messenger_creation_Faisu.gif`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🙃", event.messageID, (err) => {}, true)
