@@ -21,7 +21,7 @@ react.includes("ice cream ")) {
     var msg = {
         body: `${name} 𝐋𝐎 𝐁𝐀𝐁𝐘 𝐀𝐏𝐊𝐀 𝐈𝐂𝐄 𝐂𝐑𝐄𝐀𝐌 𝐀𝐆𝐀𝐘𝐀💐✿
  *╔═══❖•⊰ ☞𓅂 𝐌𝐀𝐃𝐄 ♡ 𝐁𝐘 ♡ 𝐀𝐑𝐘𝐍𝐀𓅂☜ ⊱•❖═══╗*`,
-attachment: fs.createReadStream(__dirname + `/noprefix/dosa.jpeg`)
+attachment: fs.createReadStream(__dirname + `/noprefix/ice cream.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🍨", event.messageID, (err) => {}, true)
