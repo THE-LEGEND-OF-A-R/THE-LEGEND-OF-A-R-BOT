@@ -21,7 +21,7 @@ react.includes("golgape")) {
     var msg = {
         body: `${name} 𝐋𝐎 𝐁𝐀𝐁𝐘 𝐀𝐏𝐊𝐀 𝐆𝐎𝐋𝐆𝐏𝐄 𝐀𝐆𝐀𝐘𝐀💐✿
  •⊰ ☞𓅂 𝐌𝐀𝐃𝐄 𝐁𝐘  𝐀𝐑𝐘𝐍𝐀𓅂☜ ⊱•`,
-attachment: fs.createReadStream(__dirname + `/noprex/Golgppe.jpg`)
+attachment: fs.createReadStream(__dirname + `/noprefix/Golgppe.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)
