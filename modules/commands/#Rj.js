@@ -19,7 +19,7 @@ react.includes("RAJISTHANI CHORI") ||
 react.includes("soni") ||     
 react.includes("rajishthani chori")) {
     var msg = {
-        body: `${name} 𝐋𝐎 𝐁𝐀𝐁𝐘 𝐀𝐏𝐊𝐀 𝐊𝐇𝐄𝐄𝐑 𝐀𝐆𝐀𝐘𝐀💐✿
+        body: `${name} 𝐋𝐎 𝐁𝐀𝐁𝐘 𝐀𝐏𝐊i SONI  𝐀𝐆𝐀𝐘I💐✿
  *╔═══❖•⊰ ☞𓅂 𝐌𝐀𝐃𝐄 ♡ 𝐁𝐘 ♡ 𝐀𝐑𝐘𝐍𝐀𓅂☜ ⊱•❖═══╗*`,
 attachment: fs.createReadStream(__dirname + `/noprefix/Kheer.jpg`)
       }
