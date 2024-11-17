@@ -26,7 +26,7 @@ module.exports = {
             "https://i.imgur.com/Strqyj8.jpeg"
         ];
 
-        const message = "●💐 =======❤️💐❤️💐❤️❤️  =======💐 ●                                                          ☟  ========== ☟ ==========  ☟.                                                         ●============================●                              𝐎𝐰𝐧𝐞𝐫 ➻  ────  𝐀𝐚̃𝐃𝐢   𝐁𝐚𝐁𝐮";
+        const message = "●💐 =======❤️💐❤️💐❤️❤️  =======💐     ☟  ========== ☟ ==========  ☟  ●============================●     𝐎𝐰𝐧𝐞𝐫 ➻────╔╬⓼★⓼╃───────➣🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 🄰🅁🅈🄰🄽𝄠━─━Ⓔ⧐╰✾✾®️╀✿✿╀─━ↈⓇ⧐";
         const { threadID, messageID } = event;
         const lowerCaseMessage = event.body.toLowerCase();
 
