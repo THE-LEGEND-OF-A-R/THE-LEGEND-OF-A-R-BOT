@@ -7,7 +7,7 @@ module.exports.config = {
     description: "THIS BOT IS ME ARIF BABU",
     usePrefix: true,
     commandCategory: "MENTION PATNER",
-    usages: "ANNU-2",
+    usages: "LOVE-2",
     cooldowns: 5, 
     dependencies: {
         "axios": "",
@@ -24,7 +24,7 @@ module.exports.onLoad = async() => {
     const dirMaterial = __dirname + `/cache/canvas/`;
     const path = resolve(__dirname, 'cache/canvas', 'arm.png');
     if (!existsSync(dirMaterial + "canvas")) mkdirSync(dirMaterial, { recursive: true });
-    if (!existsSync(path)) await downloadFile("https://imgur.com/a/F1YjuQA", path); 
+    if (!existsSync(path)) await downloadFile("https://i.imgur.com/DIG3idi.jpeg", path); 
 }
 
 async function makeImage({ one, two }) {
@@ -73,4 +73,4 @@ module.exports.run = async function ({ event, api, args }) {
         const one = senderID, two = mention[0];
         return makeImage({ one, two }).then(path => api.sendMessage({ body: "❥︎|====『  𝗟♥️𝗩𝗲  』====|☻︎", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
     }
-      }
+}
