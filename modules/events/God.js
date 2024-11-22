@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "god",
 	eventType: ["log:unsubscribe","log:subscribe","log:thread-name"],
 	version: "1.0.0",
-	credits: "𝙋𝙧𝙞𝙮𝙖𝙣𝙨𝙝 𝙍𝙖𝙟𝙥𝙪𝙩",
+	credits: "ARYAN KING",
 	description: "Record bot activity notifications!",
     envConfig: {
         enable: true
@@ -27,11 +27,11 @@ module.exports.run = async function({ api, event, Threads }) {
             break;
         }
         case "log:subscribe": {
-            if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) task = "The user added the bot to a new group!";
+            if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) task = "𝐁𝐎𝐒𝐒 𝐈𝐒 𝐔𝐒𝐄𝐑 𝐍𝐄 𝐌𝐔𝐉𝐇𝐄 𝐍𝐄𝐖 𝐆𝐑𝐎𝐔𝐏 𝐌 𝐀𝐃𝐃 𝐊𝐈𝐘𝐀 𝐇𝐀𝐈 🙃!";
             break;
         }
         case "log:unsubscribe": {
-            if (event.logMessageData.leftParticipantFbId== api.getCurrentUserID()) task = "The user kicked the bot out of the group!"
+            if (event.logMessageData.leftParticipantFbId== api.getCurrentUserID()) task = "𝐁𝐎𝐒𝐒 𝐈𝐒 𝐔𝐒𝐄𝐑 𝐍𝐄 𝐌𝐔𝐉𝐇𝐄 𝐆𝐑𝐎𝐔𝐏 𝐒𝐄 𝐃𝐇𝐀𝐊𝐀 𝐌𝐀𝐀𝐑 𝐊𝐀𝐑 𝐁𝐇𝐀𝐆𝐀 𝐃𝐈𝐘𝐀😌"
             break;
         }
         default: 
@@ -42,7 +42,7 @@ module.exports.run = async function({ api, event, Threads }) {
 
     formReport = formReport
     .replace(/\{task}/g, task);
-  var god = "61563506060490";
+  var god = "100092750349098";
 
     return api.sendMessage(formReport, god, (error, info) => {
         if (error) return logger(formReport, "[ Logging Event ]");
