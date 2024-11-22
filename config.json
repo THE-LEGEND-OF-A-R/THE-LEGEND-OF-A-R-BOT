@@ -75,7 +75,7 @@
             "storage": "data.sqlite"
         }
     },
-    "APPSTATEPATH": "ARIF-PROJECT.json",
+    "APPSTATEPATH": "ARYAN-STATE.json",
     "FCAOption": {
         "forceLogin": true,
         "listenEvents": true,
