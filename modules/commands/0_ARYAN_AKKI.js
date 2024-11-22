@@ -7,7 +7,7 @@ module.exports = {
         name: "Akki",
         version: "1.0.1",
         hasPermssion: 0,
-        credits: "SHANKAR SUMAN",
+        credits: "ARYAN-KING",
         description: "no prefix",
         usePrefix: false,
         commandCategory: "No command marks needed",
