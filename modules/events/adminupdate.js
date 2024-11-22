@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "adminUpdate",
 	eventType: ["log:thread-admins","log:thread-name", "log:user-nickname","log:thread-icon","log:thread-color"],
 	version: "1.0.1",
-	credits: "𝙋𝙧𝙞𝙮𝙖𝙣𝙨𝙝 𝙍𝙖𝙟𝙥𝙪𝙩",
+	credits: "ARYAN-KING",
 	description: "Update team information quickly",
     envConfig: {
         sendNoti: true,
@@ -25,7 +25,7 @@ module.exports.run = async function ({ event, api, Threads,Users }) {
             case "log:thread-admins": {
                 if (logMessageData.ADMIN_EVENT == "add_admin") {
                     dataThread.adminIDs.push({ id: logMessageData.TARGET_ID })
-                    if (global.configModule[this.config.name].sendNoti) api.sendMessage(`»» NOTICE «« Update user ${logMessageData.TARGET_ID} Mil Gya Admin Tujhe Ja Khus Hoja 😸`, threadID, async (error, info) => {
+                    if (global.configModule[this.config.name].sendNoti) api.sendMessage(`»» NOTICE «« Update user ${logMessageData.TARGET_ID} 𝐀𝐋𝐄 𝐀𝐋𝐄 𝐈𝐒𝐊𝐎 𝐀𝐃𝐌𝐈𝐍 𝐌𝐈𝐋 𝐆𝐀𝐘𝐀 𝐀𝐁 𝐘𝐄𝐇 𝐁𝐇𝐈 𝐇𝐀𝐖𝐀 𝐁𝐀𝐉𝐈 𝐊𝐀𝐑𝐄𝐆𝐀😂😸`, threadID, async (error, info) => {
                         if (global.configModule[this.config.name].autoUnsend) {
                             await new Promise(resolve => setTimeout(resolve, global.configModule[this.config.name].timeToUnsend * 1000));
                             return api.unsendMessage(info.messageID);
@@ -34,7 +34,7 @@ module.exports.run = async function ({ event, api, Threads,Users }) {
                 }
                 else if (logMessageData.ADMIN_EVENT == "remove_admin") {
                     dataThread.adminIDs = dataThread.adminIDs.filter(item => item.id != logMessageData.TARGET_ID);
-                    if (global.configModule[this.config.name].sendNoti) api.sendMessage(`»» NOTICE «« Update user ${logMessageData.TARGET_ID} Ha Bhai Agaya Swad Tu Admin Rehne Ke Layak Ni Tha 😹`, threadID, async (error, info) => {
+                    if (global.configModule[this.config.name].sendNoti) api.sendMessage(`»» NOTICE «« Update user ${logMessageData.TARGET_ID} 😂𝐃𝐄𝐊𝐇𝐎 𝐈𝐒𝐊𝐎 𝐀𝐃𝐌𝐈𝐍 𝐒𝐄 𝐇𝐀𝐓𝐀 𝐃𝐈𝐘𝐀 𝐀𝐃𝐌𝐈𝐍 𝐒𝐄 𝐁𝐀𝐇𝐔𝐓 𝐇𝐀𝐖𝐀𝐁𝐀𝐙𝐈 𝐊𝐀𝐑𝐓𝐀 𝐓𝐇𝐀 😹`, threadID, async (error, info) => {
                         if (global.configModule[this.config.name].autoUnsend) {
                             await new Promise(resolve => setTimeout(resolve, global.configModule[this.config.name].timeToUnsend * 1000));
                             return api.unsendMessage(info.messageID);
