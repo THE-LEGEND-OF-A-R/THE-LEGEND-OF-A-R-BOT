@@ -3,7 +3,7 @@ module.exports.config = {
   name: "Radhika",
     version: "2.1.1",
   hasPermssion: 0,
-  credits: "𝐏𝐑𝐈𝐘𝐀𝐍𝐒𝐇𝐈 𝐊𝐀𝐔𝐑", 
+  credits: "ARYAN-KING", 
   description: "Just Respond",
   commandCategory: "no prefix",
     cooldowns: 5, 
